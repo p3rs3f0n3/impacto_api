@@ -1,0 +1,23 @@
+# Entornos virtuales
+venv/
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Configuraciones de VSCode o editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.swp
+.DS_Store
+
+# Sistema de despliegue en Render
+build/
