@@ -65,3 +65,12 @@ def get_resultado(proyecto_id: str):
             "co2": "superado" if resultado_co2 else "insuficiente"
         }
     }
+
+
+@router.get("/")
+def home():
+    return {
+        "mensaje": "Bienvenida a la API de Impacto Ambiental 🌳",
+        "documentacion": "Consulta /docs para ver todos los endpoints disponibles.",
+        "version": "1.0.0"
+    }
